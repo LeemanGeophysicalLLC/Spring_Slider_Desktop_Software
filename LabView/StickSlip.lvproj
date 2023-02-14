@@ -51,33 +51,33 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="StickSlipDemo" Type="EXE">
+			<Item Name="Spring Slider" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{116C85BE-4AE0-4272-B90E-218502376ED1}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{AF834096-6B80-4B41-9F5B-61DAD94E0554}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{667A9642-64C2-4EB1-BEB7-C599843DBD1A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">StickSlipDemo</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Spring Slider</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/StickSlipDemo</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/SpringSlider</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{533A66B2-8FBC-4191-8921-A1371855A258}</Property>
 				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">StickSlipDemo.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/StickSlipDemo/StickSlipDemo.exe</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">SpringSlider.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/SpringSlider/SpringSlider.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/StickSlipDemo/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/SpringSlider/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/assets/stick_slip_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BB27C12E-1A8D-490F-8AD6-35B2D6284DDA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{345103D2-8D6F-4C10-B2F7-A4CD5C8689A1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -85,16 +85,16 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Leeman Geophysical</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">StickSlipDemo</Property>
-				<Property Name="TgtF_internalName" Type="Str">StickSlipDemo</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Spring Slider</Property>
+				<Property Name="TgtF_internalName" Type="Str">Spring Slider</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Leeman Geophysical</Property>
-				<Property Name="TgtF_productName" Type="Str">StickSlipDemo</Property>
+				<Property Name="TgtF_productName" Type="Str">Spring Slider</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{2563CD7D-41A8-42DC-80E1-4A2D8B886813}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">StickSlipDemo.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SpringSlider.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Stick Slip Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">StickSlip</Property>
+			<Item Name="Spring Slider Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Spring Slider</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{5B7A82D4-3E83-437D-8D45-8CBE281CE3B6}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
@@ -154,12 +154,12 @@
 				<Property Name="DistPart[3].upgradeCode" Type="Str">{251E8668-4013-3671-857C-61D46B2AC827}</Property>
 				<Property Name="DistPartCount" Type="Int">4</Property>
 				<Property Name="INST_author" Type="Str">Leeman Geophysical</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/StickSlip/Stick Slip Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Spring Slider</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Stick Slip Installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Spring Slider Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{5B7A82D4-3E83-437D-8D45-8CBE281CE3B6}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
-				<Property Name="INST_productName" Type="Str">StickSlip</Property>
+				<Property Name="INST_productName" Type="Str">Spring Slider</Property>
 				<Property Name="INST_productVersion" Type="Str">1.1.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">21008000</Property>
@@ -177,21 +177,21 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{5B7A82D4-3E83-437D-8D45-8CBE281CE3B6}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{5B7A82D4-3E83-437D-8D45-8CBE281CE3B6}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">StickSlipDemo.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">SpringSlider.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Stick Slip</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Spring Slider</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Leeman Geophysical</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">Stick Slip</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">Spring Slider</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
 				<Property Name="Source[0].File[0].Shortcut[2].destIndex" Type="Int">2</Property>
-				<Property Name="Source[0].File[0].Shortcut[2].name" Type="Str">Stick Slip</Property>
+				<Property Name="Source[0].File[0].Shortcut[2].name" Type="Str">Spring Slider</Property>
 				<Property Name="Source[0].File[0].Shortcut[2].subDir" Type="Str">Leeman Geophysical</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">3</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{2563CD7D-41A8-42DC-80E1-4A2D8B886813}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">StickSlipDemo</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/StickSlipDemo</Property>
+				<Property Name="Source[0].name" Type="Str">Spring Slider</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Spring Slider</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
